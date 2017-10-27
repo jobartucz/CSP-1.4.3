@@ -18,5 +18,7 @@ img = plt.imread(filename)
 fig, ax = plt.subplots(1, 1)
 # Show the image data in a subplot
 ax.imshow(img, interpolation='none')
+
 # Show the figure on the screen
+# you can comment out this line in Thonny if it is hanging while you're trying to do other things
 fig.show()
